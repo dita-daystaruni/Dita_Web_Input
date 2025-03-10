@@ -1,0 +1,109 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
+}
+label {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+input {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+textarea {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.headers
+{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 40px;
+  background-color: cornflowerblue;
+  margin-left: -1%;
+  margin-top: -1%;
+  margin-bottom: 0px;
+
+}
+a
+{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.authentication{
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: cornflowerblue;
+  margin-left: -2%;
+  margin-right: -2%;
+  height: 93vh;
+  margin-top: -2%;
+  margin-bottom: -2%;
+}
+.authentication form{
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.Delete
+{
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction:row;
+}
+.Delete_Div
+{
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  /* flex-direction: column; */
+}
+.Delete_Details
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Delete_Details p
+{
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 90%;
+}
